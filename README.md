@@ -1,2 +1,2 @@
-# eedv.de
+# eiböck.de
 Only for redirecting
