@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0;url=https://eiboeck.de">
+  <script>
+    // Get the current path and query string
+    var path = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    // Build the full redirect URL
+    var redirectUrl = "https://eiboeck.de" + path + search + hash;
+    // Redirect
+    window.location.replace(redirectUrl);
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a id="redir" href="#">https://eiboeck.de</a>...</p>
+  <script>
+    document.getElementById('redir').href = redirectUrl;
+  </script>
+</body>
+</html>
