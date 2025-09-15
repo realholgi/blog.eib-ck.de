@@ -1,2 +1,2 @@
-# eiböck.de
+# blog.eiböck.de
 Only for redirecting
